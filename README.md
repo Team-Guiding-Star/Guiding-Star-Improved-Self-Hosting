@@ -6,7 +6,6 @@ then when done it will upload to the drive when done
 make sure no two users will run file
 allow users/admins edit the server
 point users to the right ip address
-=======
 Allow users to add and update server files to Google Drive
 Ensure Hosters do not pull files from the drive when the server is being hosed
 Allow admins to edit several aspects.
