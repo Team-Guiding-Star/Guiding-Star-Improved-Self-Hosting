@@ -1,0 +1,23 @@
+SETUP
+go to folder you want to work in
+    -   git init 
+    -   git remote add origin <httpaddressofrepo>
+Now have access to repo
+
+PULL FROM BRANCH
+    -   git status  (shows what branch currently in)
+    -   git checkout <branchName> (will move you to branch)
+    -   git pull origin <brachName> (get everything from that branch into your local folder)
+
+ADD TO BRANCH WITH CHECK ON GITHUB BEFORE MERGE
+    -   git status
+    -   git checkout -b <branchName> (-b will make new branch and move you there)
+    -   git add <filename> || . (will all everything in your local folder)
+    -   git commit -m "Your des"
+    -   git push origin <new-branch> (will send make a new branch to review before merge)
+        (want to then delete the temp branch after reviewd and merged)
+        (local branch delete)
+    -   git branch -d <branchName> (-d removes the branch)
+        (Remote branch delete)
+    -   git push origin --delete <branch-name>
+
