@@ -156,6 +156,10 @@
   <ItemGroup>
     <ClCompile Include="Guiding_Star_Backend.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Google.py" />
+    <Content Include="quickstart.py" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
